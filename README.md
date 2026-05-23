@@ -15,7 +15,7 @@ Catatan: untuk Projek ini saya menggunakan Node.js Versi 24.14.0.
 1. **Clone Repository**
    Clone repository ini ke komputer lokal Anda dengan menjalankan perintah berikut di terminal/CMD:
    ```bash
-   git clone [https://github.com/devindarmawan123/Taskify/](https://github.com/devindarmawan123/Taskify/)
+   git clone https://github.com/devindarmawan123/Taskify/
    ```
 2. Lalu anda dapat masuk ke dalam folder anda dengan mengetik
   ```bash
