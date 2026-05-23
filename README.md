@@ -8,25 +8,32 @@ Anda dapat mencoba website ini dengan menggunakan link disini [https://taskify1-
 ## Syarat Pertama Jika ingin Menggunakan Projek ini
 Jika Anda ingin mencoba atau menggunakan projek yang sudah kami buat secara lokal, pastikan Anda sudah menginstal **Node.js** terlebih dahulu:
 Unduh Node.js di sini: [https://nodejs.org/en/download](https://nodejs.org/en/download)
-Catatan: untuk Projek ini saya menggunakan Node.js Versi 24.14.0.
+Catatan : untuk Projek ini saya menggunakan Node.js Versi 24.14.0.
 
 ## Cara install Dependencies
 
 1. **Clone Repository**
-   Clone repository ini ke komputer lokal Anda dengan menjalankan perintah berikut di terminal/CMD:
+   Clone repository ini ke komputer lokal Anda dengan menjalankan perintah berikut di terminal/CMD :
    ```bash
    git clone https://github.com/devindarmawan123/Taskify/
    ```
-2. Lalu anda dapat masuk ke dalam folder anda dengan mengetik
+2. Lalu anda dapat masuk ke dalam folder anda dengan mengetik :
   ```bash
   cd Taskify
   ```
-3. Dan anda dapat Instal semua package dan dependencies bawaan Next.js yang diperlukan projek ini dengan mengetik
+3. Dan anda dapat Instal semua package dan dependencies bawaan Next.js yang diperlukan projek ini dengan mengetik :
   ```bash
   npm install
   ```
-4. Jika anda ingin menjalankan Projek ini anda dapat mengetik
+4. Jika anda ingin menjalankan Projek ini anda dapat mengetik :
   ```bash
   npm run dev
   ``` 
-  dan hasilnya dapat dilihat di local host anda 
+  dan hasilnya dapat dilihat di local host anda.
+
+## Penjelasan Struktur Folder
+1. Yang perlu anda fokuskan hanya pada bagian folder src dimana dalam folder src ini berisi folder folder seperti:
+   1. app, di folder app itu isinya berupa page page dalam taskify seperti : layout,page utama,add,edit,today dan upcoming.
+   2. components, di dalam folder components itu berisi file file dimana file file tersebut berisi component component yang digunakan dalam suatu page seperti : input dan item.
+   3. context, di folder context itu berisi state management lokal sebagai jembatan komunikasi data antara logika struktur data Max-Heap dengan komponen UI (Frontend).
+   4. utils, di folder utils ini berisi cara kerja taskify (otaknya) seperti implementasi struktur max-heap, penentuan prioritas suatu elemen logika bubble-up dan sink-down.
