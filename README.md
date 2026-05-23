@@ -5,7 +5,7 @@ Sistem akan otomatis menyusun To-Do List yang dibuat oleh pengguna, di mana tuga
 ## Demo Website 
 Anda dapat mencoba website ini dengan menggunakan link disini [https://taskify1-chi.vercel.app/](https://taskify1-chi.vercel.app/)
 
-## Syarat Pertama Jika ingin Mengguunakan Projek ini
+## Syarat Pertama Jika ingin Menggunakan Projek ini
 Jika Anda ingin mencoba atau menggunakan projek yang sudah kami buat secara lokal, pastikan Anda sudah menginstal **Node.js** terlebih dahulu:
 Unduh Node.js di sini: [https://nodejs.org/en/download](https://nodejs.org/en/download)
 Catatan: untuk Projek ini saya menggunakan Node.js Versi 24.14.0.
